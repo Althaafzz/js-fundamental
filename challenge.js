@@ -21,3 +21,13 @@ function profile(nama, kelas){
 
 var username = profile("Althaaf Ridha", "10 RPL B")
 username()
+
+// challenge 3
+
+const school = 'IDN Boarding School'
+function sekolah (idn){
+    if(idn){
+        console.log(school)
+    }
+}
+sekolah(true)

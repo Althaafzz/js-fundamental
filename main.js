@@ -34,3 +34,21 @@ function student(namaMurid, kelas){
 }
 let biodata = student("Althaaf Ridha", "10 RPL B")
 biodata()
+
+// Variable
+/* 
+    Keyword variable yang ada di javascript yaitu:
+    var, let, const
+ */
+
+
+/* 
+*   Variable - var
+*    - bersifat mutable artinya bisa dirubah value(nilai)nya
+*    - memiliki 2 function scope yaitu global dan local function scope 
+*/
+
+var value = "tadi pagi saya sudah makan"
+console.log(value)
+a = "saya belum makan"
+
