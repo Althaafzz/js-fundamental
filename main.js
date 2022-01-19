@@ -22,3 +22,15 @@ function welcome(nama){
 
 var username = welcome("Althaaf")
 username()
+
+// Closure 2
+function student(namaMurid, kelas){
+    var data = `Nama: ${namaMurid} \nKelas: ${kelas}`
+
+    function displayName(){
+        console.log(data)
+    }
+    return displayName
+}
+let biodata = student("Althaaf Ridha", "10 RPL B")
+biodata()
