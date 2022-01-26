@@ -75,7 +75,7 @@ console.log('jumlahnya' + word2.length)
 for(z = 0; z < word3.length; z++){
     console.log(word3[z])
 }
-console.log('jumlahnya' + word2.length)
+console.log('jumlahnya' + word3.length)
 
 for(t = 0; t < word4.length; t++){
     console.log(word4[t])
