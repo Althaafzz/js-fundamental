@@ -11,7 +11,7 @@
 // printName()
 
 
-// // challenge 2
+//  challenge 2
 // function profile(nama, kelas){
 //     var name = "Nama = " +nama
 //     var grade = "Kelas = " +kelas
@@ -41,8 +41,9 @@
 */
  
 // #1
+console.log('\nKuis 1\n')
 let a = 'abc'
-let b = 123
+let b = true
 let c 
 let d = {}
 
@@ -51,7 +52,10 @@ console.log('b ini tipe data', typeof b)
 console.log('c ini tipe data', typeof c)
 console.log('d ini tipe data', typeof d)
 
+
+
 // #2
+console.log('\n \nKuis 2\n')
 let word = 'Hello'
 let word2 = 'Assalamualaikum'
 let word3 = 'Selamat Datang'
@@ -78,7 +82,8 @@ for(t = 0; t < word4.length; t++){
 }
 console.log('jumlahnya' + word4.length)
 
-// #3
+// #3 dan 4
+console.log('\n \nKuis 3 dan 4\n')
 const dataSiswa = {
     namaDepan : 'Almerio',
     namaBelakang : 'Setiawan',
@@ -104,6 +109,7 @@ console.log('data siswa:\n',
             `nilai : ${dataSiswa.nilai.diniyah}, ${dataSiswa.nilai.it}, ${dataSiswa.nilai.inggris}`)
 
 // #5
+console.log('\n \nKuis 5\n')
 let nama5 = 'john' 
 let kelas5 = 10 
 let jurusan5 = 'RPL'
