@@ -42,7 +42,7 @@
  
 // #1
 let a = 'abc'
-let b = 123
+let b = true
 let c 
 let d = {}
 
