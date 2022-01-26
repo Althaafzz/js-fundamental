@@ -48,7 +48,55 @@ biodata()
 *    - memiliki 2 function scope yaitu global dan local function scope 
 */
 
-var value = "tadi pagi saya sudah makan"
-console.log(value)
-a = "saya belum makan"
+// var value = "tadi pagi saya sudah makan"
+// console.log(value)
+// a = "saya belum makan"
 
+/* 
+* tipe data 
+*/
+
+// let name
+// console.log(typeof name)
+
+// name = 'jhon'
+// console.log(typeof name)
+
+// let name 
+// console.log(name)
+
+// let obj = null
+// console.log(typeof obj)
+
+/* 
+* looping 
+*/
+
+// let word = 'hello'
+// for(i = 0; i < word.length; i++){
+//     console.log(word[i])
+// }
+
+/*
+* Template literal
+*/
+// const firstName = 'Althaaf'
+// const lastName = 'Ridha'
+
+// console.log(firstName + " " + lastName) // contoh biasa
+// console.log(`hello, ${firstName} ${lastName}`)
+/*
+* Shorthand property names
+*/
+
+// cara biasa
+// let a = 1
+// let b = 2
+// let c = 3
+
+// cara singkat
+// let a = 1, b = 2, c = 3
+// atau
+let [a, b, c] =['Althaaf', 'Ridha', 'Zaydaan']
+
+console.log(`${a} ${b} ${c}`)
