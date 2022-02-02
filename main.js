@@ -97,6 +97,24 @@ biodata()
 // cara singkat
 // let a = 1, b = 2, c = 3
 // atau
-let [a, b, c] =['Althaaf', 'Ridha', 'Zaydaan']
+// let [a, b, c] =['Althaaf', 'Ridha', 'Zaydaan']
 
-console.log(`${a} ${b} ${c}`)
+// console.log(`${a} ${b} ${c}`)
+
+/*
+* high ordered list
+*/
+
+function genap(number){
+    return number %2==0
+    }
+    function printGenap(number){
+    const isTrue = genap(number)
+    if(isTrue){
+    console.log(`${number} adalah bilangan genap`)
+    }else{
+    console.log(`${number} adalah bilangan ganjil`)
+    }
+    }
+    
+    printGenap()
