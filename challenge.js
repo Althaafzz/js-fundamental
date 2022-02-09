@@ -121,7 +121,7 @@
 */
 
 function genap(number){
-    return number  %2 == 0
+    return number %2 == 0
 }
 function printGenap(number, callback){
     const isTrue = callback(number)
